@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: e28c67e7f510bb142a07ab8f5beab80f
+timeCreated: 1506155656
+licenseType: Pro
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: DFNewChuanU-B5
+  fontNames:
+  - DFNewChuanU-B5
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

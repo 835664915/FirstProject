@@ -1,0 +1,22 @@
+﻿using strange.extensions.context.impl;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+/// <summary>
+/// 启动框架
+/// </summary>
+public class GameRoot : ContextView
+{
+
+  
+    void Awake()
+    {
+       
+           context = new GameContext(this, true);
+        context.Start();
+    }
+
+
+
+
+}

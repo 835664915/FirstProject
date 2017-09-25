@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 5bffab8896d48d64ea5f8d9357151a5b
+timeCreated: 1506155655
+licenseType: Pro
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: yuweif
+  fontNames:
+  - yuweif
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

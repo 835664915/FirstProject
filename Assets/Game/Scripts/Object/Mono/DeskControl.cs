@@ -1,0 +1,58 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+/// <summary>
+/// 桌面控制
+/// </summary>
+public class DeskControl : CharacterBase
+{
+    /// <summary>
+    /// 出牌
+    /// </summary>
+    /// <returns></returns>
+    public override Card DealCard()
+    {
+        return base.DealCard();
+    }
+    /// <summary>
+    /// 添加牌
+    /// </summary>
+    /// <param name="card"></param>
+    /// <param name="selected"></param>
+    public override void AddCard(Card card, bool selected)
+    {
+        base.AddCard(card, selected);
+       
+    }
+
+    /// <summary>
+    /// 排序
+    /// </summary>
+    /// <param name="asc"></param>
+    public override void Sort(bool asc)
+    {
+        base.Sort(asc);
+       
+    }
+
+
+    /// <summary>
+    /// 
+    /// </summary>
+    public void Clear()
+    {
+
+        CardList.Clear();
+        CardUI[] cards = transform.Find("CreatePoint").GetComponentsInChildren<CardUI>();
+        for (int i = 0; i < cards.Length; i++)
+        {
+            cards[i].Destroy();
+
+
+        }
+
+
+    }
+
+}
